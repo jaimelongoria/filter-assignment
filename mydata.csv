@@ -1,0 +1,952 @@
+boro,precinct,statistical_murder_flag,vic_age_group,vic_sex,vic_race
+the Bronx,47,FALSE,25-44,male,Black
+Manhattan,6,TRUE,45-64,male,White
+Brooklyn,77,FALSE,18-24,male,Black
+Queens,114,FALSE,25-44,male,Black
+Brooklyn,75,FALSE,25-44,male,Black
+Brooklyn,69,FALSE,18-24,male,Unknown
+Queens,113,FALSE,45-64,male,Black
+the Bronx,42,TRUE,25-44,male,Black
+the Bronx,40,FALSE,18-24,male,White Hispanic
+the Bronx,40,FALSE,45-64,male,Black
+Manhattan,25,FALSE,25-44,male,White Hispanic
+Queens,103,FALSE,45-64,male,Black
+Manhattan,23,FALSE,<18,male,Black
+Brooklyn,81,FALSE,25-44,male,Black
+the Bronx,48,FALSE,18-24,female,White Hispanic
+Manhattan,25,FALSE,<18,male,Black
+the Bronx,48,FALSE,18-24,male,Black Hispanic
+the Bronx,47,FALSE,25-44,male,Black
+Brooklyn,73,FALSE,25-44,male,Black
+Brooklyn,81,FALSE,25-44,male,Black
+Brooklyn,81,FALSE,45-64,male,Black
+the Bronx,50,FALSE,25-44,male,Black
+the Bronx,42,TRUE,25-44,male,Black
+the Bronx,44,FALSE,25-44,male,White Hispanic
+the Bronx,43,TRUE,18-24,male,Black
+the Bronx,42,FALSE,25-44,male,Black
+Brooklyn,81,TRUE,18-24,male,Black
+Brooklyn,67,FALSE,18-24,male,Black
+Queens,101,TRUE,18-24,male,White Hispanic
+Queens,101,TRUE,18-24,male,White Hispanic
+Queens,101,TRUE,18-24,male,White Hispanic
+Brooklyn,90,FALSE,25-44,male,Black
+Manhattan,26,FALSE,18-24,male,White Hispanic
+the Bronx,46,FALSE,25-44,male,Black Hispanic
+the Bronx,46,TRUE,25-44,male,Black Hispanic
+Queens,105,FALSE,25-44,male,Black
+the Bronx,42,FALSE,25-44,female,Black Hispanic
+the Bronx,44,TRUE,18-24,male,White Hispanic
+the Bronx,42,FALSE,25-44,male,Black
+the Bronx,47,FALSE,25-44,male,Black
+Staten Island,120,TRUE,25-44,male,Black
+Staten Island,120,TRUE,25-44,male,Black
+the Bronx,44,FALSE,25-44,male,Black
+Brooklyn,73,FALSE,<18,male,Black
+Brooklyn,62,TRUE,18-24,male,White
+Queens,105,FALSE,25-44,male,Black
+Brooklyn,69,FALSE,Unkown,unkown,Unknown
+Brooklyn,69,FALSE,Unkown,unkown,Unknown
+Queens,102,FALSE,18-24,female,Black
+Queens,102,FALSE,25-44,female,Black
+Queens,102,FALSE,25-44,female,White Hispanic
+Queens,102,FALSE,25-44,male,Black
+Staten Island,120,FALSE,25-44,male,Black
+Staten Island,120,FALSE,25-44,male,Black
+Staten Island,120,FALSE,25-44,male,Black
+Brooklyn,90,FALSE,25-44,male,Black
+the Bronx,48,FALSE,18-24,male,Black Hispanic
+Brooklyn,71,FALSE,<18,male,Black
+the Bronx,52,FALSE,<18,female,White Hispanic
+Brooklyn,73,FALSE,25-44,male,Black
+Brooklyn,67,FALSE,18-24,male,Black
+Brooklyn,79,TRUE,25-44,male,Black
+Brooklyn,81,FALSE,18-24,male,Black
+Brooklyn,81,FALSE,18-24,male,Black
+Brooklyn,81,TRUE,18-24,male,Black
+Manhattan,34,FALSE,18-24,male,Black Hispanic
+Staten Island,120,FALSE,18-24,male,Black
+Brooklyn,70,FALSE,18-24,male,Black
+Manhattan,33,FALSE,18-24,male,White Hispanic
+the Bronx,49,FALSE,25-44,male,Black
+Brooklyn,73,FALSE,25-44,male,Black
+Manhattan,25,FALSE,18-24,male,Black
+Brooklyn,88,FALSE,25-44,male,Black
+Queens,110,FALSE,25-44,male,Black
+Brooklyn,79,FALSE,25-44,male,Black
+the Bronx,43,FALSE,<18,female,Black
+Brooklyn,71,FALSE,18-24,male,Black
+Brooklyn,73,FALSE,25-44,male,Black
+the Bronx,42,FALSE,45-64,male,Black
+Brooklyn,75,FALSE,18-24,male,White Hispanic
+Queens,108,FALSE,45-64,male,Black Hispanic
+Queens,108,FALSE,45-64,male,Black Hispanic
+Brooklyn,73,FALSE,25-44,female,Black
+Brooklyn,83,FALSE,45-64,male,White Hispanic
+Brooklyn,73,FALSE,25-44,male,White
+the Bronx,44,TRUE,45-64,female,Black Hispanic
+Brooklyn,70,FALSE,25-44,female,Black
+Brooklyn,70,FALSE,25-44,male,Black
+the Bronx,44,FALSE,25-44,male,Black
+the Bronx,44,FALSE,25-44,male,White Hispanic
+the Bronx,44,TRUE,25-44,male,Black
+the Bronx,44,TRUE,25-44,male,White Hispanic
+the Bronx,44,FALSE,25-44,male,Black
+the Bronx,44,FALSE,25-44,male,White Hispanic
+the Bronx,44,TRUE,25-44,male,Black
+the Bronx,44,TRUE,25-44,male,White Hispanic
+Brooklyn,73,FALSE,<18,male,Black
+Brooklyn,70,FALSE,18-24,male,White Hispanic
+Brooklyn,70,FALSE,18-24,male,White Hispanic
+Brooklyn,69,FALSE,18-24,male,Asian / Pacific Islander
+the Bronx,47,FALSE,18-24,male,Black
+the Bronx,47,FALSE,18-24,male,Black
+the Bronx,47,FALSE,18-24,male,Black
+the Bronx,42,FALSE,25-44,male,Black
+Queens,114,FALSE,25-44,male,Unknown
+Queens,114,FALSE,25-44,male,Unknown
+Brooklyn,75,FALSE,18-24,male,Black
+Brooklyn,73,FALSE,18-24,male,Black
+the Bronx,52,FALSE,25-44,male,White Hispanic
+Manhattan,30,FALSE,45-64,male,Black
+the Bronx,44,FALSE,25-44,male,Black
+Brooklyn,81,FALSE,25-44,male,Black
+Brooklyn,79,TRUE,25-44,male,Black
+the Bronx,44,FALSE,<18,male,Black
+Brooklyn,71,FALSE,45-64,male,Black
+Manhattan,32,FALSE,25-44,male,Black
+Brooklyn,77,FALSE,18-24,male,Black
+the Bronx,47,FALSE,25-44,male,White Hispanic
+Brooklyn,83,TRUE,45-64,female,Black Hispanic
+the Bronx,43,FALSE,25-44,male,Black
+the Bronx,43,FALSE,25-44,male,Black
+the Bronx,44,FALSE,25-44,male,Black
+Manhattan,28,FALSE,25-44,male,Black
+Brooklyn,73,FALSE,25-44,male,Black
+Brooklyn,77,FALSE,25-44,male,Black
+Queens,109,TRUE,25-44,male,White Hispanic
+Queens,114,FALSE,18-24,male,White Hispanic
+Manhattan,34,FALSE,18-24,male,White Hispanic
+the Bronx,47,FALSE,18-24,male,Black
+the Bronx,42,FALSE,25-44,male,Black
+Manhattan,25,FALSE,25-44,male,Black
+Brooklyn,75,FALSE,45-64,male,White
+Queens,103,TRUE,18-24,male,Black
+the Bronx,41,FALSE,25-44,male,Black
+Brooklyn,69,TRUE,25-44,male,Black Hispanic
+Brooklyn,69,TRUE,25-44,male,Black Hispanic
+Brooklyn,70,FALSE,25-44,female,Asian / Pacific Islander
+Brooklyn,77,TRUE,25-44,male,Black
+Brooklyn,88,FALSE,25-44,male,Black Hispanic
+Manhattan,34,FALSE,25-44,male,White Hispanic
+Manhattan,33,FALSE,18-24,male,White Hispanic
+Manhattan,33,FALSE,<18,female,Black Hispanic
+the Bronx,40,FALSE,25-44,female,Black Hispanic
+Brooklyn,70,FALSE,<18,male,Black
+Queens,103,FALSE,25-44,male,Black
+Manhattan,23,FALSE,18-24,male,White Hispanic
+Brooklyn,70,FALSE,<18,male,Black
+the Bronx,40,FALSE,25-44,male,White Hispanic
+Brooklyn,61,FALSE,18-24,female,White
+the Bronx,44,FALSE,45-64,male,Black Hispanic
+Brooklyn,73,FALSE,18-24,male,Black
+Brooklyn,73,FALSE,25-44,male,Black
+Brooklyn,77,FALSE,18-24,male,Black
+the Bronx,40,FALSE,25-44,male,Black
+the Bronx,47,FALSE,25-44,male,Black
+the Bronx,50,FALSE,18-24,male,White Hispanic
+Staten Island,123,FALSE,18-24,male,Black
+Brooklyn,61,TRUE,65+,male,White
+Brooklyn,77,FALSE,18-24,male,Black
+the Bronx,52,FALSE,25-44,male,Black Hispanic
+Brooklyn,81,FALSE,25-44,male,Black
+Manhattan,25,FALSE,18-24,male,Black
+the Bronx,42,FALSE,25-44,male,Black
+the Bronx,42,TRUE,25-44,male,Black
+the Bronx,42,FALSE,<18,male,Black
+the Bronx,42,TRUE,<18,male,Black
+Brooklyn,71,FALSE,25-44,male,Black
+Manhattan,34,FALSE,<18,male,White Hispanic
+Queens,103,FALSE,18-24,male,Black
+the Bronx,50,FALSE,25-44,male,White Hispanic
+Manhattan,34,FALSE,18-24,male,White Hispanic
+Manhattan,34,FALSE,18-24,male,White Hispanic
+Brooklyn,67,FALSE,25-44,male,Black
+the Bronx,43,FALSE,18-24,male,Black
+Brooklyn,61,FALSE,18-24,male,Black
+the Bronx,43,FALSE,18-24,female,Black
+the Bronx,43,FALSE,18-24,female,Black
+the Bronx,43,FALSE,18-24,female,Black
+the Bronx,43,FALSE,18-24,female,Black
+the Bronx,49,TRUE,25-44,male,Black
+the Bronx,48,FALSE,25-44,male,Black
+Brooklyn,75,FALSE,<18,male,Black
+the Bronx,52,FALSE,25-44,male,Black
+Brooklyn,69,FALSE,25-44,male,Black
+the Bronx,44,FALSE,18-24,male,Black
+the Bronx,41,FALSE,25-44,male,White Hispanic
+the Bronx,40,FALSE,45-64,male,Black
+Queens,113,TRUE,25-44,male,Black
+the Bronx,47,FALSE,18-24,male,Black
+the Bronx,40,FALSE,18-24,male,Black
+Brooklyn,70,TRUE,25-44,male,Black
+Brooklyn,83,TRUE,18-24,female,White Hispanic
+the Bronx,48,FALSE,<18,male,Black
+Queens,102,TRUE,25-44,male,Black
+the Bronx,46,FALSE,45-64,male,Black
+the Bronx,46,FALSE,45-64,male,Black
+Manhattan,26,FALSE,25-44,male,Black
+the Bronx,46,FALSE,25-44,male,Black
+the Bronx,40,FALSE,25-44,male,Black
+Brooklyn,76,TRUE,25-44,male,Black
+the Bronx,46,FALSE,25-44,male,Black
+the Bronx,46,FALSE,18-24,male,White Hispanic
+the Bronx,46,FALSE,25-44,male,White Hispanic
+Brooklyn,75,TRUE,18-24,female,Unknown
+Brooklyn,78,FALSE,25-44,male,White
+the Bronx,42,FALSE,25-44,male,Black
+the Bronx,47,FALSE,25-44,male,Black
+the Bronx,44,TRUE,65+,male,White
+Staten Island,120,FALSE,25-44,male,White
+Brooklyn,67,FALSE,25-44,male,Black
+Brooklyn,73,FALSE,18-24,male,Unknown
+Staten Island,120,FALSE,25-44,male,White
+the Bronx,48,FALSE,18-24,male,Black
+the Bronx,48,FALSE,18-24,male,Black
+the Bronx,48,FALSE,18-24,male,Black
+Brooklyn,81,FALSE,25-44,male,Black
+the Bronx,46,FALSE,25-44,male,Black
+Brooklyn,69,FALSE,18-24,male,Black
+the Bronx,47,FALSE,25-44,male,Black
+Brooklyn,84,FALSE,18-24,male,Black
+Brooklyn,84,FALSE,<18,male,Black
+Manhattan,28,FALSE,25-44,male,Black Hispanic
+Queens,109,TRUE,25-44,male,Black
+Queens,109,TRUE,25-44,male,Black
+Queens,115,TRUE,25-44,male,Black
+Brooklyn,75,FALSE,45-64,female,White
+Brooklyn,67,FALSE,18-24,male,Black
+the Bronx,46,FALSE,25-44,male,Black
+Queens,113,FALSE,25-44,male,Black
+Brooklyn,67,FALSE,<18,male,Black
+the Bronx,47,FALSE,25-44,male,Black
+the Bronx,41,FALSE,18-24,male,Black
+the Bronx,42,FALSE,18-24,male,Black Hispanic
+Queens,106,TRUE,25-44,male,Black
+Queens,113,TRUE,25-44,male,Black
+the Bronx,49,TRUE,45-64,male,Black
+Staten Island,121,FALSE,25-44,male,Black
+the Bronx,48,FALSE,25-44,female,Black
+the Bronx,48,FALSE,25-44,male,Black
+Brooklyn,83,FALSE,18-24,male,Black
+the Bronx,44,FALSE,25-44,male,Black
+Brooklyn,67,FALSE,18-24,female,Black
+Brooklyn,67,FALSE,25-44,female,Black
+the Bronx,40,FALSE,45-64,male,Asian / Pacific Islander
+Queens,114,FALSE,18-24,male,Black
+Brooklyn,73,TRUE,<18,male,Black
+Queens,114,FALSE,25-44,female,White
+Queens,114,TRUE,25-44,female,White
+Queens,114,FALSE,25-44,male,Black
+Queens,114,TRUE,25-44,male,Black
+Brooklyn,81,FALSE,18-24,male,Black
+Manhattan,28,FALSE,18-24,male,Black
+Brooklyn,75,FALSE,18-24,male,Black Hispanic
+Manhattan,28,FALSE,25-44,female,Black
+the Bronx,44,FALSE,18-24,male,White Hispanic
+the Bronx,44,FALSE,18-24,male,White Hispanic
+Brooklyn,75,FALSE,25-44,male,Black
+the Bronx,40,FALSE,<18,male,Black
+Manhattan,32,FALSE,25-44,male,Asian / Pacific Islander
+Brooklyn,94,FALSE,25-44,male,Black
+Brooklyn,73,FALSE,18-24,male,Black
+Brooklyn,76,TRUE,25-44,male,Black
+the Bronx,46,FALSE,25-44,male,Black
+Brooklyn,77,FALSE,45-64,female,White
+Brooklyn,73,FALSE,25-44,male,Black
+the Bronx,48,FALSE,18-24,male,Black
+the Bronx,50,FALSE,18-24,male,Black Hispanic
+Brooklyn,75,FALSE,25-44,male,Black
+Brooklyn,75,TRUE,25-44,male,Black Hispanic
+the Bronx,52,FALSE,18-24,male,Black
+the Bronx,52,FALSE,18-24,male,Black
+Brooklyn,73,FALSE,18-24,male,White Hispanic
+Queens,106,TRUE,25-44,male,Black
+Queens,105,TRUE,25-44,male,Black
+Brooklyn,90,FALSE,18-24,male,Black Hispanic
+Brooklyn,90,FALSE,18-24,male,Black Hispanic
+Brooklyn,77,FALSE,18-24,male,White Hispanic
+Brooklyn,73,FALSE,25-44,male,Black
+Brooklyn,67,FALSE,45-64,male,Black
+Brooklyn,67,TRUE,25-44,male,Black
+the Bronx,44,FALSE,25-44,male,Black
+Queens,105,FALSE,18-24,male,Black
+Brooklyn,78,FALSE,45-64,male,Black
+Queens,105,FALSE,18-24,male,Black
+the Bronx,46,FALSE,25-44,male,Black Hispanic
+the Bronx,46,FALSE,18-24,male,Black
+Brooklyn,63,FALSE,25-44,female,Black
+the Bronx,44,TRUE,18-24,male,Black
+Brooklyn,77,FALSE,18-24,male,Black
+Manhattan,34,FALSE,25-44,male,White Hispanic
+Brooklyn,79,TRUE,25-44,male,Black
+Brooklyn,79,TRUE,45-64,male,Black
+Manhattan,23,TRUE,25-44,male,Black
+the Bronx,40,FALSE,<18,male,Black
+Brooklyn,67,FALSE,18-24,male,Black
+the Bronx,50,TRUE,25-44,male,Black
+Brooklyn,71,FALSE,18-24,male,Black
+Brooklyn,71,FALSE,25-44,male,Black
+Brooklyn,77,FALSE,25-44,male,Black
+Brooklyn,71,FALSE,25-44,female,Black
+Brooklyn,79,FALSE,25-44,male,Black
+Brooklyn,79,TRUE,25-44,male,Black
+Brooklyn,73,FALSE,25-44,male,Black
+Manhattan,34,FALSE,18-24,male,White Hispanic
+Manhattan,34,TRUE,18-24,male,White Hispanic
+Manhattan,13,FALSE,25-44,male,Black
+Manhattan,13,FALSE,<18,female,Black
+Queens,101,TRUE,18-24,male,Black
+the Bronx,50,TRUE,18-24,male,White Hispanic
+Brooklyn,67,FALSE,18-24,male,Black
+Manhattan,30,TRUE,25-44,male,Black Hispanic
+Brooklyn,77,FALSE,25-44,male,Black
+Brooklyn,73,FALSE,25-44,male,Black
+Queens,114,TRUE,25-44,male,Black
+the Bronx,48,FALSE,25-44,male,White Hispanic
+Queens,103,FALSE,25-44,male,Black
+the Bronx,47,FALSE,45-64,male,Black
+the Bronx,44,FALSE,25-44,male,White Hispanic
+the Bronx,42,FALSE,25-44,male,Black
+Manhattan,23,FALSE,18-24,male,Black
+Manhattan,23,FALSE,18-24,male,White Hispanic
+Manhattan,23,TRUE,18-24,male,Black
+Manhattan,23,TRUE,18-24,male,White Hispanic
+Manhattan,23,FALSE,25-44,male,Black
+Manhattan,23,TRUE,25-44,male,Black
+the Bronx,43,FALSE,18-24,male,Black
+Manhattan,25,FALSE,18-24,male,Black
+Brooklyn,75,FALSE,18-24,male,Black
+Brooklyn,71,FALSE,25-44,male,Black
+Brooklyn,71,FALSE,<18,male,Black
+the Bronx,42,FALSE,25-44,male,Black
+Brooklyn,79,FALSE,25-44,male,Black
+the Bronx,40,FALSE,25-44,male,Black
+the Bronx,44,FALSE,25-44,male,Black
+Brooklyn,73,FALSE,<18,male,Black
+the Bronx,43,FALSE,18-24,male,White Hispanic
+Brooklyn,94,TRUE,25-44,male,Black
+Brooklyn,67,FALSE,45-64,male,Black
+Brooklyn,67,FALSE,25-44,male,Black
+Queens,101,TRUE,25-44,male,Black
+Brooklyn,75,FALSE,18-24,male,Black
+the Bronx,49,FALSE,18-24,female,Black
+the Bronx,49,TRUE,18-24,female,Black
+the Bronx,49,FALSE,18-24,male,Black
+the Bronx,49,TRUE,18-24,male,Black
+the Bronx,49,FALSE,25-44,male,Black
+the Bronx,49,TRUE,25-44,male,Black
+Queens,102,TRUE,18-24,male,Asian / Pacific Islander
+Queens,101,FALSE,45-64,male,White Hispanic
+the Bronx,42,FALSE,25-44,male,Black
+Brooklyn,73,FALSE,18-24,male,Black
+the Bronx,52,FALSE,25-44,male,Black
+Staten Island,120,FALSE,25-44,male,White Hispanic
+the Bronx,41,FALSE,18-24,male,White Hispanic
+Brooklyn,63,FALSE,<18,male,Black
+Manhattan,23,FALSE,18-24,male,Black
+Manhattan,34,FALSE,25-44,male,Unknown
+Brooklyn,77,FALSE,25-44,male,Black
+Manhattan,33,FALSE,18-24,male,Black Hispanic
+Brooklyn,84,FALSE,65+,male,Black
+the Bronx,46,FALSE,45-64,male,Black
+Queens,103,FALSE,25-44,male,Black
+Brooklyn,83,FALSE,25-44,male,Black Hispanic
+Brooklyn,73,FALSE,18-24,male,Black
+Queens,103,FALSE,45-64,female,Black
+Brooklyn,67,FALSE,18-24,male,Black
+the Bronx,40,FALSE,25-44,male,Black Hispanic
+Manhattan,30,FALSE,25-44,male,White Hispanic
+Manhattan,30,FALSE,25-44,male,White Hispanic
+Staten Island,120,FALSE,18-24,male,Black
+the Bronx,42,FALSE,18-24,male,Black
+Staten Island,120,FALSE,25-44,male,Black
+Brooklyn,79,FALSE,18-24,male,Black
+the Bronx,44,FALSE,18-24,male,White Hispanic
+the Bronx,44,FALSE,<18,male,White Hispanic
+Brooklyn,75,FALSE,<18,male,Black
+Brooklyn,84,FALSE,18-24,male,Black
+Brooklyn,81,FALSE,25-44,male,Black
+Manhattan,24,FALSE,<18,male,Black
+the Bronx,40,FALSE,18-24,male,White Hispanic
+Queens,101,FALSE,18-24,male,Black
+Queens,101,FALSE,<18,male,Black
+Brooklyn,79,FALSE,25-44,male,Black
+Queens,114,FALSE,18-24,male,Black
+Brooklyn,79,FALSE,18-24,male,Black
+Brooklyn,79,FALSE,18-24,male,Black
+Brooklyn,81,FALSE,25-44,male,Black
+the Bronx,40,FALSE,18-24,male,White Hispanic
+the Bronx,41,FALSE,25-44,male,Black
+Staten Island,120,FALSE,18-24,male,Black
+the Bronx,44,FALSE,25-44,male,Black
+the Bronx,44,TRUE,25-44,male,White Hispanic
+the Bronx,44,FALSE,25-44,male,Black
+Brooklyn,79,FALSE,25-44,male,Black
+Brooklyn,71,FALSE,25-44,male,Black
+Queens,113,FALSE,25-44,male,Black
+Brooklyn,73,FALSE,25-44,male,Black
+the Bronx,46,FALSE,25-44,male,White Hispanic
+the Bronx,46,FALSE,25-44,male,White Hispanic
+the Bronx,52,TRUE,25-44,male,Black
+Queens,108,FALSE,18-24,male,Black
+Manhattan,23,FALSE,<18,male,Black
+Manhattan,23,FALSE,<18,male,Black Hispanic
+Queens,114,TRUE,25-44,female,White
+Queens,114,TRUE,45-64,female,White
+Queens,114,TRUE,<18,male,White
+Brooklyn,81,FALSE,25-44,male,Black
+Queens,113,FALSE,25-44,male,Black
+the Bronx,47,FALSE,18-24,male,Black
+the Bronx,47,FALSE,25-44,female,Black
+Brooklyn,73,FALSE,25-44,male,Black
+Manhattan,26,TRUE,18-24,male,Black
+Queens,114,FALSE,25-44,male,Black
+Queens,114,FALSE,25-44,male,Black
+Queens,114,FALSE,18-24,male,Black
+Brooklyn,75,FALSE,<18,male,Black
+Brooklyn,61,FALSE,25-44,male,Black
+Brooklyn,60,FALSE,18-24,male,Black
+the Bronx,44,FALSE,18-24,male,Black
+Queens,106,FALSE,18-24,male,Black
+Brooklyn,75,FALSE,18-24,male,Black
+Brooklyn,83,FALSE,18-24,male,Black Hispanic
+Brooklyn,83,FALSE,18-24,male,White Hispanic
+Brooklyn,83,TRUE,18-24,male,Black Hispanic
+Brooklyn,83,TRUE,18-24,male,White Hispanic
+the Bronx,44,FALSE,45-64,male,Black Hispanic
+Brooklyn,73,FALSE,25-44,male,Black
+Brooklyn,90,FALSE,18-24,male,Black
+Queens,113,FALSE,25-44,male,Black
+Manhattan,34,FALSE,25-44,male,White Hispanic
+Manhattan,28,FALSE,18-24,male,Black
+the Bronx,47,FALSE,25-44,male,Black
+Brooklyn,71,FALSE,25-44,male,Black
+Brooklyn,67,FALSE,25-44,male,Black
+the Bronx,49,FALSE,18-24,male,White Hispanic
+Queens,105,FALSE,25-44,male,Black
+Queens,114,FALSE,25-44,female,Black
+Queens,114,FALSE,25-44,male,Black
+Brooklyn,79,FALSE,25-44,male,Black
+Manhattan,28,FALSE,<18,male,Black
+Brooklyn,88,FALSE,18-24,male,Black
+Queens,113,FALSE,25-44,male,Black
+Queens,106,FALSE,25-44,male,Black
+the Bronx,44,FALSE,25-44,male,White Hispanic
+the Bronx,44,FALSE,25-44,male,White Hispanic
+Manhattan,23,FALSE,25-44,male,Black
+Manhattan,23,FALSE,25-44,male,Black
+Manhattan,32,TRUE,18-24,male,Black
+Brooklyn,73,FALSE,45-64,male,Black
+Brooklyn,90,FALSE,25-44,male,Black
+Brooklyn,90,TRUE,25-44,male,Black
+Brooklyn,90,FALSE,<18,male,Black
+Brooklyn,90,TRUE,<18,male,Black
+Brooklyn,90,FALSE,<18,male,Black
+Brooklyn,81,FALSE,25-44,female,Black Hispanic
+Queens,103,FALSE,18-24,male,Black
+the Bronx,44,FALSE,18-24,female,Black Hispanic
+the Bronx,44,FALSE,25-44,female,Black Hispanic
+the Bronx,44,FALSE,25-44,male,Black Hispanic
+Brooklyn,75,TRUE,<18,male,Black
+Queens,105,TRUE,25-44,male,Black
+Manhattan,19,FALSE,25-44,male,Black
+the Bronx,50,TRUE,45-64,male,White Hispanic
+Brooklyn,79,FALSE,25-44,male,Black
+Brooklyn,84,FALSE,25-44,female,Black Hispanic
+Brooklyn,84,FALSE,25-44,male,Black
+Brooklyn,83,FALSE,25-44,male,Black
+Brooklyn,81,TRUE,<18,male,Black
+the Bronx,45,FALSE,25-44,male,White
+Brooklyn,88,FALSE,18-24,male,White Hispanic
+Brooklyn,90,FALSE,18-24,male,Black
+Brooklyn,67,FALSE,65+,male,Black
+Staten Island,120,TRUE,65+,female,Black
+Staten Island,120,TRUE,65+,female,Black
+Brooklyn,67,TRUE,25-44,male,Black
+the Bronx,44,TRUE,45-64,male,Black
+the Bronx,40,FALSE,18-24,male,Black
+the Bronx,40,FALSE,18-24,male,White Hispanic
+Brooklyn,70,FALSE,18-24,male,Black
+the Bronx,47,FALSE,25-44,male,Black
+the Bronx,41,FALSE,18-24,male,White Hispanic
+the Bronx,44,FALSE,25-44,male,Black
+Brooklyn,88,FALSE,25-44,male,Black
+the Bronx,44,FALSE,45-64,male,Black
+Manhattan,33,FALSE,25-44,male,Black Hispanic
+Manhattan,33,FALSE,25-44,male,White Hispanic
+Brooklyn,79,FALSE,UNKNOWN,male,Black Hispanic
+Manhattan,30,FALSE,45-64,male,Black
+Brooklyn,60,FALSE,45-64,male,White Hispanic
+Brooklyn,77,FALSE,18-24,male,Black
+Brooklyn,81,FALSE,18-24,male,Black
+Brooklyn,71,TRUE,25-44,male,Black
+Manhattan,32,FALSE,25-44,male,Black
+Brooklyn,67,FALSE,18-24,male,Black
+Queens,103,FALSE,25-44,female,Black
+Brooklyn,79,FALSE,<18,female,Black
+Brooklyn,67,FALSE,18-24,male,Black
+Brooklyn,79,FALSE,18-24,female,Black
+Brooklyn,79,FALSE,18-24,male,Asian / Pacific Islander
+Brooklyn,79,FALSE,25-44,male,Black
+Queens,105,FALSE,18-24,male,Black
+Brooklyn,79,FALSE,18-24,male,Black
+Brooklyn,67,FALSE,25-44,male,Black
+Brooklyn,67,FALSE,25-44,male,Black
+Brooklyn,71,TRUE,25-44,male,Black Hispanic
+Brooklyn,73,FALSE,18-24,female,Black
+Brooklyn,73,FALSE,18-24,male,Black
+Queens,114,FALSE,25-44,male,Black
+Queens,113,FALSE,25-44,male,Black
+Brooklyn,79,FALSE,25-44,male,Black
+Brooklyn,75,FALSE,25-44,male,Black
+the Bronx,46,TRUE,25-44,male,White Hispanic
+Brooklyn,71,FALSE,18-24,male,Black
+Brooklyn,71,FALSE,45-64,female,Black
+Brooklyn,83,FALSE,25-44,male,Black
+Brooklyn,83,TRUE,25-44,male,Black
+Brooklyn,73,FALSE,25-44,male,Black Hispanic
+Brooklyn,75,FALSE,18-24,male,Black
+Queens,107,FALSE,25-44,male,Black
+Brooklyn,75,TRUE,25-44,male,Black
+Queens,114,FALSE,25-44,male,Black
+Queens,114,FALSE,25-44,male,Black
+Brooklyn,88,FALSE,25-44,female,Black
+Brooklyn,81,FALSE,18-24,male,Black
+Brooklyn,81,TRUE,18-24,male,Black
+Brooklyn,81,FALSE,25-44,male,Black
+Brooklyn,81,TRUE,25-44,male,Black
+the Bronx,41,TRUE,25-44,male,Black Hispanic
+Brooklyn,71,FALSE,25-44,male,Black
+Queens,107,FALSE,25-44,male,Black
+Queens,107,FALSE,25-44,male,Black
+Manhattan,5,FALSE,18-24,female,Black
+Manhattan,5,FALSE,18-24,male,Black
+Brooklyn,71,FALSE,25-44,male,Black
+Queens,103,FALSE,18-24,male,White Hispanic
+Queens,103,FALSE,25-44,male,White Hispanic
+Brooklyn,79,FALSE,18-24,male,White Hispanic
+the Bronx,44,FALSE,25-44,male,Black
+Brooklyn,75,FALSE,25-44,male,White Hispanic
+Brooklyn,67,FALSE,25-44,male,Black
+Staten Island,120,FALSE,25-44,male,Black
+Brooklyn,79,FALSE,25-44,male,Black
+Brooklyn,69,FALSE,25-44,male,Black
+Brooklyn,69,FALSE,25-44,male,Black
+the Bronx,43,TRUE,25-44,male,Black
+the Bronx,43,TRUE,45-64,female,White Hispanic
+Queens,105,FALSE,25-44,male,Black
+the Bronx,40,FALSE,18-24,male,Black
+Brooklyn,75,FALSE,25-44,male,Black
+the Bronx,49,TRUE,18-24,male,White Hispanic
+the Bronx,49,TRUE,18-24,male,White Hispanic
+the Bronx,46,FALSE,18-24,male,White Hispanic
+Manhattan,30,FALSE,25-44,male,Black
+the Bronx,44,FALSE,25-44,male,Black Hispanic
+the Bronx,45,FALSE,25-44,male,Black
+Brooklyn,71,FALSE,18-24,male,Black
+Brooklyn,71,FALSE,25-44,male,Black
+Brooklyn,90,FALSE,25-44,male,Black
+Manhattan,6,FALSE,25-44,male,Black
+Queens,114,FALSE,18-24,male,Black
+Queens,114,FALSE,25-44,male,Black
+Brooklyn,83,TRUE,25-44,male,Black
+Brooklyn,79,FALSE,18-24,male,Black
+Queens,103,FALSE,25-44,male,Black
+Brooklyn,73,FALSE,18-24,male,Black
+the Bronx,47,FALSE,25-44,male,White Hispanic
+Brooklyn,73,FALSE,18-24,male,Black
+Queens,105,FALSE,25-44,male,Unknown
+the Bronx,52,FALSE,25-44,male,Black
+Manhattan,32,TRUE,25-44,male,Black
+Manhattan,33,FALSE,18-24,female,Black
+the Bronx,44,FALSE,25-44,male,Black
+the Bronx,44,FALSE,25-44,male,Black Hispanic
+the Bronx,44,FALSE,25-44,male,White Hispanic
+Staten Island,120,FALSE,18-24,male,Black
+Queens,103,TRUE,45-64,male,Black
+Brooklyn,67,TRUE,18-24,male,Black
+the Bronx,48,FALSE,25-44,female,White Hispanic
+the Bronx,48,TRUE,25-44,female,White Hispanic
+the Bronx,48,FALSE,25-44,male,White Hispanic
+the Bronx,48,TRUE,25-44,male,White Hispanic
+Queens,103,FALSE,25-44,male,Black
+Brooklyn,73,FALSE,25-44,male,Black
+Manhattan,32,TRUE,25-44,male,Black
+Manhattan,34,FALSE,25-44,male,Unknown
+Manhattan,23,FALSE,25-44,male,Black
+Brooklyn,70,TRUE,18-24,male,Asian / Pacific Islander
+the Bronx,44,FALSE,18-24,male,White Hispanic
+the Bronx,44,FALSE,<18,female,Black
+Manhattan,32,FALSE,25-44,male,Unknown
+Brooklyn,66,FALSE,18-24,male,Asian / Pacific Islander
+Brooklyn,66,FALSE,<18,female,Asian / Pacific Islander
+the Bronx,46,TRUE,25-44,male,Black
+Queens,105,FALSE,45-64,male,Asian / Pacific Islander
+Brooklyn,69,FALSE,<18,male,Black
+Queens,105,TRUE,25-44,male,Black
+Brooklyn,81,FALSE,<18,male,Black
+the Bronx,48,TRUE,<18,female,Black
+the Bronx,48,FALSE,<18,male,Black
+Brooklyn,79,FALSE,25-44,male,Black
+Brooklyn,75,TRUE,45-64,male,Black
+Manhattan,32,FALSE,25-44,male,Black
+Manhattan,34,FALSE,25-44,male,Unknown
+the Bronx,40,FALSE,25-44,male,Black
+Brooklyn,73,FALSE,18-24,male,Black
+Brooklyn,81,FALSE,25-44,male,White Hispanic
+Queens,105,FALSE,18-24,male,Black
+Manhattan,32,FALSE,18-24,male,Black
+Manhattan,32,FALSE,45-64,female,White Hispanic
+Queens,113,FALSE,25-44,male,Black
+Queens,106,FALSE,25-44,male,White Hispanic
+Queens,106,TRUE,25-44,male,White Hispanic
+Queens,106,FALSE,25-44,male,White Hispanic
+Queens,106,TRUE,25-44,male,White Hispanic
+Manhattan,20,FALSE,25-44,male,Black Hispanic
+Brooklyn,84,FALSE,18-24,male,Black
+Brooklyn,84,FALSE,<18,male,Black
+the Bronx,40,FALSE,18-24,male,Black
+Queens,103,FALSE,25-44,male,Black
+Brooklyn,75,FALSE,25-44,female,White Hispanic
+the Bronx,40,FALSE,25-44,male,White Hispanic
+Brooklyn,67,FALSE,18-24,male,Black
+Manhattan,23,FALSE,<18,female,Black
+Brooklyn,73,FALSE,18-24,female,Black
+Brooklyn,73,FALSE,18-24,male,Black
+the Bronx,40,TRUE,18-24,male,Black
+Brooklyn,69,TRUE,18-24,male,Black
+Queens,114,FALSE,25-44,male,Black
+Queens,113,FALSE,25-44,male,Black
+Brooklyn,77,FALSE,25-44,male,Black
+the Bronx,46,FALSE,25-44,male,Black
+the Bronx,42,FALSE,25-44,male,Black
+Brooklyn,90,FALSE,18-24,male,Black Hispanic
+Brooklyn,90,TRUE,18-24,male,Black Hispanic
+Manhattan,30,FALSE,18-24,male,Black Hispanic
+Brooklyn,75,FALSE,18-24,male,White Hispanic
+Manhattan,23,FALSE,18-24,male,Black
+Brooklyn,67,FALSE,25-44,male,Black
+the Bronx,43,FALSE,18-24,male,Black
+the Bronx,43,FALSE,18-24,male,Black
+the Bronx,46,FALSE,18-24,male,Black
+Brooklyn,83,FALSE,25-44,male,Black
+Manhattan,30,TRUE,25-44,male,Black
+Queens,114,FALSE,25-44,male,Black
+the Bronx,45,FALSE,65+,female,White
+Brooklyn,73,TRUE,25-44,male,Black
+the Bronx,41,FALSE,25-44,male,Black
+Staten Island,121,FALSE,<18,male,Black
+Manhattan,28,FALSE,18-24,male,Black
+Manhattan,28,FALSE,25-44,male,Black
+Manhattan,32,FALSE,25-44,male,Black
+the Bronx,44,TRUE,18-24,male,Black
+Queens,113,TRUE,25-44,male,Black
+Queens,113,TRUE,25-44,male,Black
+the Bronx,42,FALSE,25-44,male,White Hispanic
+Brooklyn,79,FALSE,18-24,male,Black
+Brooklyn,90,TRUE,45-64,male,Black
+Brooklyn,83,FALSE,45-64,male,White Hispanic
+Queens,113,FALSE,18-24,male,Black
+the Bronx,40,FALSE,25-44,female,Black
+the Bronx,40,FALSE,25-44,female,Black
+the Bronx,40,FALSE,25-44,female,Black
+Brooklyn,90,TRUE,45-64,female,White Hispanic
+Staten Island,120,TRUE,25-44,male,Black
+Brooklyn,69,TRUE,25-44,male,Black
+Brooklyn,71,FALSE,18-24,male,Black
+the Bronx,44,FALSE,25-44,male,White Hispanic
+the Bronx,40,FALSE,18-24,male,Black
+Brooklyn,73,FALSE,18-24,male,Black
+the Bronx,48,FALSE,18-24,male,Black
+Brooklyn,61,FALSE,25-44,male,Black
+Brooklyn,66,FALSE,25-44,male,White Hispanic
+Brooklyn,73,FALSE,18-24,male,Black
+Brooklyn,73,TRUE,18-24,male,Black
+the Bronx,41,FALSE,25-44,male,White Hispanic
+Brooklyn,75,FALSE,25-44,male,White Hispanic
+Brooklyn,77,FALSE,45-64,male,Black
+Brooklyn,84,TRUE,25-44,male,Black
+Brooklyn,81,TRUE,25-44,male,Black
+Brooklyn,73,FALSE,25-44,male,Black
+Brooklyn,73,FALSE,18-24,male,Black
+Brooklyn,73,TRUE,18-24,male,Black
+Brooklyn,90,FALSE,25-44,male,Black
+Queens,100,FALSE,18-24,male,Black
+the Bronx,43,FALSE,25-44,male,Black
+the Bronx,52,FALSE,25-44,male,White Hispanic
+Brooklyn,67,TRUE,25-44,male,Black
+the Bronx,42,FALSE,25-44,male,Black
+the Bronx,42,FALSE,25-44,male,White Hispanic
+the Bronx,42,TRUE,25-44,male,Black
+the Bronx,42,TRUE,25-44,male,White Hispanic
+the Bronx,42,FALSE,<18,male,White Hispanic
+the Bronx,42,TRUE,<18,male,White Hispanic
+the Bronx,47,FALSE,18-24,male,Black
+Brooklyn,71,FALSE,18-24,male,Black
+Brooklyn,71,FALSE,45-64,male,Black
+the Bronx,52,TRUE,25-44,male,Black
+the Bronx,52,TRUE,25-44,male,Black
+Brooklyn,73,FALSE,25-44,male,Black
+the Bronx,41,FALSE,18-24,male,White Hispanic
+the Bronx,41,FALSE,18-24,male,White Hispanic
+Brooklyn,70,FALSE,25-44,male,Black
+Brooklyn,77,FALSE,18-24,male,Black
+Brooklyn,67,FALSE,25-44,male,Black
+Queens,101,FALSE,25-44,male,Black
+Queens,101,FALSE,18-24,male,Black
+the Bronx,42,FALSE,18-24,male,Black
+the Bronx,42,TRUE,18-24,male,Black
+the Bronx,42,FALSE,18-24,male,Black
+the Bronx,42,TRUE,18-24,male,Black
+the Bronx,42,FALSE,18-24,male,Black
+the Bronx,42,TRUE,18-24,male,Black
+Brooklyn,71,FALSE,18-24,male,Black Hispanic
+the Bronx,40,FALSE,18-24,male,White Hispanic
+Brooklyn,67,FALSE,25-44,male,Black
+Brooklyn,67,FALSE,25-44,male,Black
+Manhattan,23,TRUE,<18,male,Black
+the Bronx,52,TRUE,25-44,male,Black
+Brooklyn,71,FALSE,18-24,male,Black
+the Bronx,43,TRUE,45-64,male,Black Hispanic
+the Bronx,40,TRUE,25-44,male,Black
+Brooklyn,75,TRUE,25-44,male,Black
+Manhattan,32,FALSE,25-44,male,Black
+Brooklyn,79,FALSE,25-44,male,Black
+Brooklyn,79,FALSE,25-44,male,White Hispanic
+Brooklyn,79,FALSE,25-44,male,Black
+Brooklyn,79,FALSE,25-44,male,White Hispanic
+the Bronx,43,FALSE,25-44,male,White
+the Bronx,43,FALSE,25-44,male,White
+Brooklyn,79,TRUE,25-44,male,Black
+Brooklyn,69,FALSE,18-24,male,Black
+the Bronx,47,TRUE,25-44,male,Black
+the Bronx,52,FALSE,18-24,male,White Hispanic
+Brooklyn,81,FALSE,25-44,male,Black
+Brooklyn,67,FALSE,25-44,male,White Hispanic
+Manhattan,23,FALSE,18-24,male,Black
+Queens,102,FALSE,18-24,male,Black
+Queens,102,FALSE,25-44,male,Black
+Brooklyn,77,FALSE,18-24,male,Black
+the Bronx,52,FALSE,25-44,male,Unknown
+Brooklyn,73,FALSE,45-64,female,Black
+the Bronx,50,FALSE,18-24,male,Black Hispanic
+the Bronx,50,TRUE,18-24,male,Black Hispanic
+the Bronx,50,FALSE,25-44,male,Black
+the Bronx,50,TRUE,25-44,male,Black
+Brooklyn,70,FALSE,18-24,male,Black
+Brooklyn,70,FALSE,45-64,female,Black
+Brooklyn,75,FALSE,<18,male,Black
+Brooklyn,63,TRUE,25-44,male,White Hispanic
+Brooklyn,70,FALSE,25-44,male,Black
+Queens,100,FALSE,25-44,male,Asian / Pacific Islander
+Brooklyn,68,FALSE,25-44,male,White
+Brooklyn,67,FALSE,18-24,male,Black
+Staten Island,120,FALSE,45-64,male,Black
+Staten Island,120,FALSE,<18,male,Black
+Manhattan,25,FALSE,25-44,male,White Hispanic
+Manhattan,25,FALSE,45-64,female,White Hispanic
+Brooklyn,90,FALSE,18-24,male,Black
+Manhattan,7,FALSE,18-24,male,Black
+Manhattan,7,FALSE,18-24,male,Black
+Brooklyn,79,TRUE,25-44,male,Black
+Brooklyn,67,FALSE,25-44,male,Black Hispanic
+Manhattan,19,TRUE,45-64,male,White
+Manhattan,26,FALSE,18-24,male,Black
+Brooklyn,71,TRUE,25-44,male,Black
+Brooklyn,71,TRUE,25-44,male,Black
+Brooklyn,63,FALSE,18-24,male,Black
+Brooklyn,75,FALSE,25-44,male,White Hispanic
+Brooklyn,75,FALSE,25-44,male,White Hispanic
+Brooklyn,70,TRUE,25-44,male,Black
+Queens,103,FALSE,25-44,male,Black
+the Bronx,42,FALSE,45-64,male,White Hispanic
+the Bronx,42,TRUE,25-44,male,Black
+Brooklyn,83,FALSE,45-64,male,Black
+the Bronx,46,FALSE,25-44,male,Black
+Brooklyn,69,FALSE,25-44,male,Black
+Manhattan,26,FALSE,18-24,male,Black
+Brooklyn,79,FALSE,18-24,male,Black
+Brooklyn,73,FALSE,25-44,male,Black
+Queens,106,FALSE,18-24,male,Black
+Brooklyn,73,FALSE,18-24,male,Black
+Queens,114,TRUE,25-44,male,Black
+Queens,106,FALSE,25-44,male,Asian / Pacific Islander
+the Bronx,47,FALSE,25-44,male,Black
+the Bronx,44,FALSE,45-64,male,Black
+Queens,110,TRUE,25-44,male,White Hispanic
+Queens,113,FALSE,25-44,male,Black
+Brooklyn,81,FALSE,25-44,male,Black
+the Bronx,44,TRUE,25-44,female,Black
+Brooklyn,67,FALSE,18-24,male,Black
+the Bronx,40,FALSE,<18,male,Black
+Brooklyn,70,FALSE,25-44,male,Black
+the Bronx,43,FALSE,25-44,male,White Hispanic
+Brooklyn,67,FALSE,18-24,male,Black
+Staten Island,123,FALSE,25-44,male,White Hispanic
+Brooklyn,63,FALSE,<18,male,Black
+Brooklyn,73,TRUE,45-64,male,Black
+Brooklyn,73,TRUE,<18,female,Black
+Brooklyn,73,TRUE,<18,male,Black
+Queens,102,FALSE,25-44,female,American Indian/Alaskan Native
+Queens,102,FALSE,25-44,male,Black
+Queens,102,FALSE,25-44,male,White Hispanic
+Queens,105,TRUE,18-24,male,Black
+Brooklyn,73,FALSE,18-24,male,White Hispanic
+Brooklyn,79,TRUE,18-24,male,Black
+Brooklyn,77,FALSE,18-24,male,Black
+the Bronx,42,FALSE,25-44,male,Black
+the Bronx,40,FALSE,<18,male,Black Hispanic
+the Bronx,40,FALSE,<18,male,Black Hispanic
+Manhattan,30,FALSE,18-24,male,White Hispanic
+the Bronx,40,FALSE,18-24,male,White Hispanic
+Brooklyn,73,TRUE,45-64,male,Black
+Brooklyn,67,FALSE,25-44,male,White
+the Bronx,41,FALSE,25-44,male,Black
+the Bronx,41,FALSE,25-44,male,White Hispanic
+Brooklyn,73,FALSE,25-44,male,Black
+Queens,114,FALSE,18-24,male,White Hispanic
+Brooklyn,63,FALSE,18-24,male,Black
+Brooklyn,63,TRUE,18-24,male,Black
+Brooklyn,63,FALSE,25-44,male,Black
+Brooklyn,63,TRUE,25-44,male,Black
+Brooklyn,94,FALSE,18-24,male,Black
+the Bronx,46,FALSE,18-24,male,Black
+Manhattan,26,FALSE,18-24,male,Black
+Manhattan,26,FALSE,18-24,male,Black Hispanic
+the Bronx,41,FALSE,<18,male,Black Hispanic
+the Bronx,42,FALSE,18-24,male,Black
+the Bronx,48,FALSE,25-44,male,Black Hispanic
+Brooklyn,70,FALSE,18-24,male,Black
+Queens,115,FALSE,45-64,male,Black Hispanic
+Brooklyn,69,FALSE,<18,female,Black
+Brooklyn,69,FALSE,<18,female,Black
+the Bronx,46,FALSE,25-44,male,White Hispanic
+Queens,114,FALSE,25-44,male,Black
+the Bronx,41,FALSE,18-24,male,Black
+the Bronx,43,FALSE,45-64,male,Black
+Brooklyn,75,FALSE,18-24,male,Black
+Brooklyn,67,FALSE,25-44,male,Black
+Brooklyn,67,FALSE,25-44,female,Black
+the Bronx,52,FALSE,25-44,female,Black
+Brooklyn,67,FALSE,18-24,male,Black
+Brooklyn,67,FALSE,45-64,male,Black Hispanic
+Manhattan,23,TRUE,25-44,male,Black
+Queens,107,FALSE,45-64,male,Black
+Brooklyn,75,FALSE,25-44,male,Black
+Brooklyn,70,FALSE,25-44,male,Black
+Brooklyn,71,TRUE,25-44,male,Black
+Brooklyn,67,FALSE,25-44,male,Black
+Brooklyn,77,FALSE,25-44,male,Black
+Brooklyn,83,FALSE,25-44,male,White Hispanic
+Staten Island,120,FALSE,45-64,male,Black
+Queens,101,TRUE,<18,male,Black
+Queens,101,TRUE,<18,male,Black
+Queens,105,FALSE,25-44,male,Black
+Manhattan,32,FALSE,25-44,male,Black
+the Bronx,47,FALSE,25-44,male,Black
+the Bronx,49,TRUE,45-64,male,White Hispanic
+the Bronx,46,FALSE,18-24,male,Black Hispanic
+the Bronx,48,TRUE,25-44,male,Black Hispanic
+the Bronx,48,TRUE,25-44,male,Black Hispanic
+Manhattan,25,FALSE,18-24,male,Black
+Queens,107,TRUE,18-24,male,White Hispanic
+Queens,107,TRUE,18-24,male,White Hispanic
+Queens,105,FALSE,45-64,male,Black
+the Bronx,40,FALSE,25-44,male,Black
+Queens,101,FALSE,18-24,male,Black
+Brooklyn,79,TRUE,45-64,male,Black
+the Bronx,45,FALSE,25-44,male,Black
+the Bronx,52,FALSE,18-24,female,Black
+Manhattan,32,FALSE,18-24,male,Black
+Queens,106,FALSE,45-64,female,Black
+Queens,106,TRUE,45-64,female,Black
+Queens,106,FALSE,45-64,male,Black
+Queens,106,TRUE,45-64,male,Black
+Queens,106,FALSE,45-64,female,Black
+Queens,106,TRUE,45-64,female,Black
+Queens,106,FALSE,45-64,male,Black
+Queens,106,TRUE,45-64,male,Black
+Brooklyn,69,TRUE,25-44,male,Black
+the Bronx,40,FALSE,25-44,male,Black
+Brooklyn,71,FALSE,18-24,male,Black
+Queens,114,FALSE,25-44,female,Black
+the Bronx,52,FALSE,<18,male,Black
+Brooklyn,81,FALSE,<18,male,Black
+Manhattan,24,FALSE,18-24,male,Black
+Manhattan,33,FALSE,18-24,male,White Hispanic
+the Bronx,48,FALSE,18-24,male,Black
+the Bronx,49,FALSE,25-44,male,Black
+the Bronx,40,FALSE,25-44,male,Black Hispanic
+Brooklyn,60,FALSE,18-24,male,Black Hispanic
+Manhattan,14,FALSE,25-44,male,Black
+Queens,111,FALSE,18-24,female,Black
+Queens,111,FALSE,25-44,male,Black
+Brooklyn,79,FALSE,25-44,male,Black
+Queens,101,FALSE,25-44,male,Black
+Manhattan,13,FALSE,25-44,male,Black
+Brooklyn,81,TRUE,25-44,male,Black
+Queens,105,TRUE,65+,male,Black
+Queens,106,TRUE,18-24,male,Black
+the Bronx,43,FALSE,25-44,male,Black
+the Bronx,40,FALSE,25-44,male,Asian / Pacific Islander
+the Bronx,48,FALSE,18-24,male,White Hispanic
+the Bronx,46,TRUE,25-44,male,Black
+the Bronx,40,TRUE,25-44,female,Black
+the Bronx,43,FALSE,25-44,male,Black
+the Bronx,43,FALSE,18-24,male,Black
+the Bronx,44,FALSE,45-64,male,Black
+Brooklyn,75,FALSE,<18,male,Black
+Manhattan,34,FALSE,25-44,male,Black
+the Bronx,48,FALSE,18-24,male,White Hispanic
+Queens,101,TRUE,<18,male,Black
+the Bronx,52,FALSE,25-44,female,White Hispanic
+the Bronx,52,FALSE,25-44,male,White Hispanic
+Queens,103,FALSE,18-24,male,Black
+the Bronx,43,TRUE,25-44,female,Unknown
+the Bronx,43,TRUE,45-64,female,Unknown
+the Bronx,48,TRUE,25-44,male,Black
+Queens,101,FALSE,25-44,male,White Hispanic
+Brooklyn,90,FALSE,18-24,male,Black
+Brooklyn,90,FALSE,45-64,male,Black
+Brooklyn,72,FALSE,25-44,male,White Hispanic
+the Bronx,47,FALSE,18-24,male,Black Hispanic
+the Bronx,47,TRUE,18-24,male,Black Hispanic
+the Bronx,47,FALSE,18-24,male,Black Hispanic
+the Bronx,47,TRUE,18-24,male,Black Hispanic
+the Bronx,47,FALSE,45-64,female,White Hispanic
+the Bronx,47,TRUE,45-64,female,White Hispanic
+the Bronx,47,FALSE,45-64,female,White Hispanic
+the Bronx,47,TRUE,45-64,female,White Hispanic
+the Bronx,47,FALSE,45-64,male,White Hispanic
+the Bronx,47,TRUE,45-64,male,White Hispanic
+the Bronx,47,FALSE,45-64,male,White Hispanic
+the Bronx,47,TRUE,45-64,male,White Hispanic
+the Bronx,47,FALSE,18-24,male,Black Hispanic
+the Bronx,47,TRUE,18-24,male,Black Hispanic
+the Bronx,47,FALSE,45-64,female,White Hispanic
+the Bronx,47,TRUE,45-64,female,White Hispanic
+the Bronx,47,FALSE,45-64,male,White Hispanic
+the Bronx,47,TRUE,45-64,male,White Hispanic
+Manhattan,24,FALSE,18-24,male,Black
+the Bronx,40,FALSE,25-44,male,Black
+Brooklyn,77,FALSE,45-64,male,Asian / Pacific Islander
+the Bronx,43,FALSE,25-44,male,Black Hispanic
+the Bronx,44,FALSE,25-44,male,Black Hispanic
+the Bronx,42,FALSE,18-24,female,Black
+Staten Island,123,FALSE,18-24,male,White Hispanic
+Queens,103,FALSE,25-44,male,White
+Brooklyn,70,FALSE,18-24,male,Black
+Brooklyn,70,FALSE,25-44,male,Black
+Brooklyn,73,FALSE,25-44,male,Black
+the Bronx,40,FALSE,25-44,male,Black
