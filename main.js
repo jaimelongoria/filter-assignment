@@ -9,11 +9,11 @@ $(document).ready(function () { // we must wait for the DOM to be ready as the b
 		gender = _.uniqBy(data, "vic_sex"),
 		race = _.uniqBy(data, "vic_race");
 
-	boros = _.sortBy(boros, "boro"),
-		death = _.sortBy(death, "statistical_murder_flag"),
-		age = _.sortBy(age, "vic_age_group"),
-		gender = _.sortBy(gender, "vic_sex"),
-		race = _.sortBy(race, "vic_race");
+	boros = _.sortBy(boros, "boro");
+	death = _.sortBy(death, "statistical_murder_flag");
+	age = _.sortBy(age, "vic_age_group");
+	gender = _.sortBy(gender, "vic_sex");
+	race = _.sortBy(race, "vic_race");
 
 	//	console.log("BOROS");
 	//	console.log(boros);
@@ -34,12 +34,14 @@ $(document).ready(function () { // we must wait for the DOM to be ready as the b
 		$("#character").append(option_template({ boro: boro.boro }));
 	});
 
+
+
 	$('#enter').on("click", function (e) {
 		e.preventDefault(); //disable the button's default behavior
 		// DO STUFF...
 		persons_boro = $("#character").val();
 		result = _.find(data, { boro: persons_boro });
-		f
+
 
 		console.log(result);
 
