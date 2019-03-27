@@ -17,7 +17,7 @@ $(document).ready(function () { // we must wait for the DOM to be ready as the b
 		race = _.sortBy(race, "vic_race");
 
 	_.each(boros, function (person) {
-		$("#character").append(option_template({ shot: person.boro }));
+		$("#borough").append(option_template({ shot: person.boro }));
 	});
 
 	_.each(death, function (person) {
@@ -37,28 +37,42 @@ $(document).ready(function () { // we must wait for the DOM to be ready as the b
 	});
 
 
-	$("body").on("change", "input[type='select']", function (e) {
-		persons_boro = $("#character").val();
-		result = _.find(data, { boro: persons_boro });
-	});
+	$("select").on("change", function () {
+		console.log("this.value");
+		console.log(this.value);
+		incident = (this.value);
+		console.log("incident");
+		console.log(incident);
 
+		result = _.find(data, { shot: incident });
 
+		$("#shootings").html(person_template({ person: result }));
 
-	$('#enter').on("click", function (e) {
-		e.preventDefault(); //disable the button's default behavior
-		// DO STUFF...
-		persons_boro = $("#character").val();
-		result = _.find(data, { boro: persons_boro });
-
-		//console.log(result);
-
-		$("#favorites").html(person_template({ person: result }));
+		console.log("result");
+		console.log(result);
 
 	});
 
 
 
-	console.log("BOROS");
+
+	//	$('#enter').on("click", function (e) {
+	//		e.preventDefault(); //disable the button's default behavior
+	// DO STUFF...
+	//		persons_boro = $("#borough").val();
+	//		result = _.find(data, { shot: persons_boro });
+
+
+
+	//		$("#shootings").html(person_template({ person: result }));
+
+
+
+	//	});
+
+
+
+	console.log("boros");
 	console.log(boros);
 
 	console.log("deaths");
