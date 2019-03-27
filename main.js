@@ -37,21 +37,78 @@ $(document).ready(function () { // we must wait for the DOM to be ready as the b
 	});
 
 
-	$("select").on("change", function () {
+	$(".choice").on("change", function () {
 		console.log("this.value");
 		console.log(this.value);
-		incident = (this.value);
-		console.log("incident");
-		console.log(incident);
 
-		result = _.find(data, { shot: incident });
+		result = _.chain(data)
+			.filter({ "boro": this.value })
+			.value();
+
+		//result = _.filter(data, { boro: this.value });
+
 
 		$("#shootings").html(person_template({ person: result }));
+
+
 
 		console.log("result");
 		console.log(result);
 
 	});
+
+	//	$("#killed").on("change", function () {
+	//		console.log("this.value");
+	//		console.log(this.value);
+
+	//		result = _.filter(data, { statistical_murder_flag: this.value });
+
+	//		$("#shootings").html(person_template({ person: result }));
+
+	//		console.log("result");
+	//		console.log(result);
+
+	//	});
+
+	//	$("#old").on("change", function () {
+	//		console.log("this.value");
+	//		console.log(this.value);
+
+	//		result = _.filter(data, { vic_age_group: this.value });
+
+	//		$("#shootings").html(person_template({ person: result }));
+
+	//		console.log("result");
+	//		console.log(result);
+
+	//	});
+
+	//	$("#sex").on("change", function () {
+	//		console.log("this.value");
+	//		console.log(this.value);
+
+	//		result = _.filter(data, { vic_sex: this.value });
+
+	//		$("#shootings").html(person_template({ person: result }));
+
+	//		console.log("result");
+	//		console.log(result);
+
+	//	});
+
+	//	$("#racial").on("change", function () {
+	//		console.log("this.value");
+	//		console.log(this.value);
+
+	//		result = _.filter(data, { vic_race: this.value });
+
+	//		$("#shootings").html(person_template({ person: result }));
+
+	//		console.log("result");
+	//		console.log(result);
+
+	//	});
+
 
 
 
