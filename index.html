@@ -28,27 +28,30 @@
     <!-- YOUR CONTENT GOES HERE -->
     <h2>Pick a borough and we'll tell you about a shooting victim </h2>
     <form>
-      <select id="character"></select>
-      <select id="killed">
+      <select class="choice" id="boro">
+        <option value="">What borough?</option>
+      </select>
+      <select class="choice" id="statistical_murder_flag">
         <option value="">Did they die?</option>
       </select>
-      <select id="old">
+      <select class="choice" id="vic_age_group">
         <option value="">Select age...</option>
       </select>
-      <select id="sex">
+      <select class="choice" id="vic_sex">
         <option value="">Select gender...</option>
       </select>
-      <select id="racial">
+      <select class="choice" id="vic_race">
         <option value="">Select race...</option>
       </select>
     </form>
 
     <h2>Their details should appear below using templating</h2>
 
-    <div id="favorites"></div>
+    <div id="shootings"></div>
     <!-- templating occurs here -->
     <script type="text/html" id="person_template">
-      You selected a shooting in <%= person.boro %>. This person was killed: <%= person.statistical_murder_flag %>. They were  <%= person.vic_age_group %> years old, their gender was <%= person.vic_sex %> and their race was <%= person.vic_race %>.
+      <!--You selected a shooting in <%= person.boro %>. This person was killed: <%= person.statistical_murder_flag %>. They were  <%= person.vic_age_group %> years old, their gender was <%= person.vic_sex %> and their race was <%= person.vic_race %>.-->
+      <%= person %>
         </script>
 
     <script type="text/html" id="select_template">

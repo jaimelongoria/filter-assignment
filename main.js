@@ -17,48 +17,139 @@ $(document).ready(function () { // we must wait for the DOM to be ready as the b
 		race = _.sortBy(race, "vic_race");
 
 	_.each(boros, function (person) {
-		$("#character").append(option_template({ shot: person.boro }));
+		$("#boro").append(option_template({ shot: person.boro }));
 	});
 
 	_.each(death, function (person) {
-		$("#killed").append(option_template({ shot: person.statistical_murder_flag }));
+		$("#statistical_murder_flag").append(option_template({ shot: person.statistical_murder_flag }));
 	});
 
 	_.each(age, function (person) {
-		$("#old").append(option_template({ shot: person.vic_age_group }));
+		$("#vic_age_group").append(option_template({ shot: person.vic_age_group }));
 	});
 
 	_.each(gender, function (person) {
-		$("#sex").append(option_template({ shot: person.vic_sex }));
+		$("#vic_sex").append(option_template({ shot: person.vic_sex }));
 	});
 
 	_.each(race, function (person) {
-		$("#racial").append(option_template({ shot: person.vic_race }));
+		$("#vic_race").append(option_template({ shot: person.vic_race }));
 	});
 
 
-	$("body").on("change", "input[type='select']", function (e) {
-		persons_boro = $("#character").val();
-		result = _.find(data, { boro: persons_boro });
+	$("body").on("change", ".choice", function () {
+		console.log("this.value");
+		console.log(this.value);
+
+		//set up an empty object to store your filters in
+		let filters = {};
+
+		//look at each dropdown
+		$(".choice").each(function () {
+			const $this_choice = $(this),
+				value = $this_choice.val(),
+				property = $this_choice.attr("id");
+
+			//if this dropdown has been used, add its value to the filter
+			if (value !== "") {
+				filters[property] = value;
+			}
+		});
+
+		//filter the data by the selections
+		let results = _.filter(data, filters);
+
+
+
+		// result = _.chain(data)
+		// 	.filter({ "boro": this.value })
+		// 	.value();
+
+		//result = _.filter(data, { boro: this.value });
+
+
+		// $("#shootings").html(person_template({ person: result }));
+
+
+
+		// console.log("result");
+		console.log(results);
+
 	});
 
+	//	$("#killed").on("change", function () {
+	//		console.log("this.value");
+	//		console.log(this.value);
+
+	//		result = _.filter(data, { statistical_murder_flag: this.value });
+
+	//		$("#shootings").html(person_template({ person: result }));
+
+	//		console.log("result");
+	//		console.log(result);
+
+	//	});
+
+	//	$("#old").on("change", function () {
+	//		console.log("this.value");
+	//		console.log(this.value);
+
+	//		result = _.filter(data, { vic_age_group: this.value });
+
+	//		$("#shootings").html(person_template({ person: result }));
+
+	//		console.log("result");
+	//		console.log(result);
+
+	//	});
+
+	//	$("#sex").on("change", function () {
+	//		console.log("this.value");
+	//		console.log(this.value);
+
+	//		result = _.filter(data, { vic_sex: this.value });
+
+	//		$("#shootings").html(person_template({ person: result }));
+
+	//		console.log("result");
+	//		console.log(result);
+
+	//	});
+
+	//	$("#racial").on("change", function () {
+	//		console.log("this.value");
+	//		console.log(this.value);
+
+	//		result = _.filter(data, { vic_race: this.value });
+
+	//		$("#shootings").html(person_template({ person: result }));
+
+	//		console.log("result");
+	//		console.log(result);
+
+	//	});
 
 
-	$('#enter').on("click", function (e) {
-		e.preventDefault(); //disable the button's default behavior
-		// DO STUFF...
-		persons_boro = $("#character").val();
-		result = _.find(data, { boro: persons_boro });
-
-		//console.log(result);
-
-		$("#favorites").html(person_template({ person: result }));
-
-	});
 
 
 
-	console.log("BOROS");
+	//	$('#enter').on("click", function (e) {
+	//		e.preventDefault(); //disable the button's default behavior
+	// DO STUFF...
+	//		persons_boro = $("#borough").val();
+	//		result = _.find(data, { shot: persons_boro });
+
+
+
+	//		$("#shootings").html(person_template({ person: result }));
+
+
+
+	//	});
+
+
+
+	console.log("boros");
 	console.log(boros);
 
 	console.log("deaths");
