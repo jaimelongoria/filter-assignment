@@ -29,23 +29,28 @@
     <h2>Pick a borough and we'll tell you about a shooting victim </h2>
     <form>
       <select class="choice" id="boro">
-        <option value="">What borough?</option>
+        <option value="">Borough</option>
       </select>
       <select class="choice" id="statistical_murder_flag">
-        <option value="">Did they die?</option>
+        <option value="">Did Shooting Result In Death?</option>
       </select>
       <select class="choice" id="vic_age_group">
-        <option value="">Select age...</option>
+        <option value="">Age</option>
       </select>
       <select class="choice" id="vic_sex">
-        <option value="">Select gender...</option>
+        <option value="">Gender</option>
       </select>
       <select class="choice" id="vic_race">
-        <option value="">Select race...</option>
+        <option value="">Race Or Ethnicity</option>
       </select>
     </form>
 
     <h2>Their details should appear below using templating</h2>
+
+    <div class="total">
+      <span>951</span>
+    </div>
+
 
     <div id="shootings"></div>
     <!-- templating occurs here -->
