@@ -17,43 +17,63 @@ $(document).ready(function () { // we must wait for the DOM to be ready as the b
 		race = _.sortBy(race, "vic_race");
 
 	_.each(boros, function (person) {
-		$("#borough").append(option_template({ shot: person.boro }));
+		$("#boro").append(option_template({ shot: person.boro }));
 	});
 
 	_.each(death, function (person) {
-		$("#killed").append(option_template({ shot: person.statistical_murder_flag }));
+		$("#statistical_murder_flag").append(option_template({ shot: person.statistical_murder_flag }));
 	});
 
 	_.each(age, function (person) {
-		$("#old").append(option_template({ shot: person.vic_age_group }));
+		$("#vic_age_group").append(option_template({ shot: person.vic_age_group }));
 	});
 
 	_.each(gender, function (person) {
-		$("#sex").append(option_template({ shot: person.vic_sex }));
+		$("#vic_sex").append(option_template({ shot: person.vic_sex }));
 	});
 
 	_.each(race, function (person) {
-		$("#racial").append(option_template({ shot: person.vic_race }));
+		$("#vic_race").append(option_template({ shot: person.vic_race }));
 	});
 
 
-	$(".choice").on("change", function () {
+	$("body").on("change", ".choice", function () {
 		console.log("this.value");
 		console.log(this.value);
 
-		result = _.chain(data)
-			.filter({ "boro": this.value })
-			.value();
+		//set up an empty object to store your filters in
+		let filters = {};
+
+		//look at each dropdown
+		$(".choice").each(function () {
+			const $this_choice = $(this),
+				value = $this_choice.val(),
+				property = $this_choice.attr("id");
+
+			//if this dropdown has been used, add its value to the filter
+			if (value !== "") {
+				filters[property] = value;
+			}
+		});
+
+		//filter the data by the selections
+		let results = _.filter(data, filters);
+
+
+
+		// result = _.chain(data)
+		// 	.filter({ "boro": this.value })
+		// 	.value();
 
 		//result = _.filter(data, { boro: this.value });
 
 
-		$("#shootings").html(person_template({ person: result }));
+		// $("#shootings").html(person_template({ person: result }));
 
 
 
-		console.log("result");
-		console.log(result);
+		// console.log("result");
+		console.log(results);
 
 	});
 
