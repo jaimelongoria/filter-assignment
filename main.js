@@ -58,6 +58,8 @@ $(document).ready(function () { // we must wait for the DOM to be ready as the b
 
 		//filter the data by the selections
 		let results = _.filter(data, filters);
+		array = results
+		$(".total").find("span").text(array.length);
 
 
 
