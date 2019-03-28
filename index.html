@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- first step to a responsive site -->
-    <title>HTML Skeleton</title>
+    <title>NYC Shooting Victims 2018</title>
 
     <!-- FONT AWESOME -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -26,13 +26,14 @@
 
   <body>
     <!-- YOUR CONTENT GOES HERE -->
-    <h2>Pick a borough and we'll tell you about a shooting victim </h2>
+    <h2>Total Shooting Victims in New York City in 2018</h2>
+    <h3>Use the filter below to narrow the demographics of each victim.</h3>
     <form>
       <select class="choice" id="boro">
         <option value="">Borough</option>
       </select>
-      <select class="choice" id="statistical_murder_flag">
-        <option value="">Did Shooting Result In Death?</option>
+      <select class="choice" id="vic_race">
+        <option value="">Race Or Ethnicity</option>
       </select>
       <select class="choice" id="vic_age_group">
         <option value="">Age</option>
@@ -40,12 +41,14 @@
       <select class="choice" id="vic_sex">
         <option value="">Gender</option>
       </select>
-      <select class="choice" id="vic_race">
-        <option value="">Race Or Ethnicity</option>
+      <select class="choice" id="statistical_murder_flag">
+        <option value="">Did Shooting Result In Death?</option>
       </select>
+
+
     </form>
 
-    <h2>Their details should appear below using templating</h2>
+    <h2>Total Number</h2>
 
     <div class="total">
       <span>951</span>
