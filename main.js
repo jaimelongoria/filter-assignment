@@ -62,7 +62,7 @@ $(document).ready(function () { // we must wait for the DOM to be ready as the b
 		array = results
 		let percent = (array.length / 951) * 100
 		let pretotal = parseFloat(percent)
-		let pertotal = "This is " + pretotal.toPrecision(3) + "% of the total shooting victims in 2018.";
+		let pertotal = "This is " + pretotal.toPrecision(3) + "% of shooting victims in 2018.";
 
 		console.log("pertotal");
 		console.log(pertotal);
