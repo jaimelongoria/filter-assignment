@@ -47,6 +47,15 @@ img {
     max-width: 100%;
 }
 
+.imgcred {
+    font-family: 'VT323', monospace;
+    font-size: 16px;
+    color: #999999;
+    line-height: 0.8em;
+    position: relative;
+    right: -660px;
+}
+
 p {
     line-height: 1.5em;
 }
@@ -84,6 +93,28 @@ span {
 
 .choice {
     cursor: pointer;
+    background: #FFFFFF;
+    font-family: 'PT Serif', Georgia, "Times New Roman", serif;
+}
+
+#boro {
+    width: 90px;
+}
+
+#vic_race {
+    width: 150px;
+}
+
+#vic_age_group {
+    width: 55px;
+}
+
+#vic_sex {
+    width: 80px;
+}
+
+#statistical_murder_flag {
+    width: 140px;
 }
 
 p.solid {
@@ -97,11 +128,6 @@ p.solid {
 
 .line {
     margin: 40px;
-}
-
-.choice {
-    background: #FFFFFF;
-    font-family: 'PT Serif', Georgia, "Times New Roman", serif;
 }
 
 /*********************************************************************
