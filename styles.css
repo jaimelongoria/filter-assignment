@@ -40,22 +40,25 @@ html, body {
 h1 {
     font-family: 'Roboto', Helvetica, sans-serif;
     font-size: 38px;
-    font-weight: 700;
+    font-weight: 400;
+}
+
+h4 {
+    text-align: center;
 }
 
 img {
     max-width: 100%;
 }
 
-.imgcred {
+/*.imgcred {
     font-family: 'VT323', monospace;
     font-size: 16px;
     color: #999999;
     line-height: 0.8em;
     position: relative;
     right: -660px;
-}
-
+}*/
 p {
     line-height: 1.5em;
 }
@@ -68,21 +71,26 @@ p {
 }
 
 .interact {
-    padding: 40px;
     max-width: 100%;
+    border-style: solid;
 }
 
 .total, .percent_total {
     max-width: 200px;
+    border-style: solid;
+    position: relative;
+    left: 40px;
 }
 
 #resultbox {
     padding-top: 45px;
+    border-style: solid;
 }
 
 .percent_total {
     position: relative;
     top: 50px;
+    border-style: solid;
 }
 
 span {
@@ -91,30 +99,18 @@ span {
     font-weight: 100;
 }
 
+.drop {
+    text-align: center;
+    position: relative;
+    left: 22px;
+    width: 250px;
+}
+
 .choice {
     cursor: pointer;
     background: #FFFFFF;
     font-family: 'PT Serif', Georgia, "Times New Roman", serif;
-}
-
-#boro {
-    width: 90px;
-}
-
-#vic_race {
-    width: 150px;
-}
-
-#vic_age_group {
-    width: 55px;
-}
-
-#vic_sex {
-    width: 80px;
-}
-
-#statistical_murder_flag {
-    width: 140px;
+    width: 250px;
 }
 
 p.solid {
@@ -137,14 +133,36 @@ p.solid {
 
     /* Any adjustments for tablets and larger go here.
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+    #boro {
+        width: 90px;
+    }
+
+    #vic_race {
+        width: 150px;
+    }
+
+    #vic_age_group {
+        width: 55px;
+    }
+
+    #vic_sex {
+        width: 80px;
+    }
+
+    #statistical_murder_flag {
+        width: 140px;
+    }
+
     .total, .percent_total {
         max-width: 300px;
+        position: relative;
+        left: 55px;
     }
 
     .percent_total {
         position: relative;
         left: 365px;
-        top: -56px;
+        top: -60px;
     }
 
     .line {
