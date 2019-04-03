@@ -72,25 +72,24 @@ p {
 
 .interact {
     max-width: 100%;
-    border-style: solid;
+    padding-top: 25px;
 }
 
-.total, .percent_total {
-    max-width: 200px;
-    border-style: solid;
-    position: relative;
-    left: 40px;
+form {
+    margin: 0 auto;
+    text-align: center;
 }
+
+.total, .percent_total {}
 
 #resultbox {
-    padding-top: 45px;
-    border-style: solid;
+    padding-top: 40px;
 }
 
 .percent_total {
     position: relative;
-    top: 50px;
-    border-style: solid;
+    top: 25px;
+    padding-bottom: 40px;
 }
 
 span {
@@ -101,16 +100,13 @@ span {
 
 .drop {
     text-align: center;
-    position: relative;
-    left: 22px;
-    width: 250px;
 }
 
 .choice {
     cursor: pointer;
     background: #FFFFFF;
     font-family: 'PT Serif', Georgia, "Times New Roman", serif;
-    width: 250px;
+    width: 100%;
 }
 
 p.solid {
@@ -122,8 +118,8 @@ p.solid {
     margin-left: auto;
 }
 
-.line {
-    margin: 40px;
+hr {
+    width: 25%;
 }
 
 /*********************************************************************
@@ -134,19 +130,19 @@ p.solid {
     /* Any adjustments for tablets and larger go here.
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
     #boro {
-        width: 90px;
+        width: 120px;
     }
 
     #vic_race {
-        width: 150px;
+        width: 275px;
     }
 
     #vic_age_group {
-        width: 55px;
+        width: 100px;
     }
 
     #vic_sex {
-        width: 80px;
+        width: 100px;
     }
 
     #statistical_murder_flag {
@@ -154,19 +150,23 @@ p.solid {
     }
 
     .total, .percent_total {
-        max-width: 300px;
-        position: relative;
-        left: 55px;
+        max-width: 100%;
+        position: static;
+        text-align: center;
     }
 
     .percent_total {
         position: relative;
-        left: 365px;
-        top: -60px;
+        top: 25px;
     }
 
-    .line {
-        margin-top: -15px;
+    .reset-btn {
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+
+    hr {
+        width: 25%;
     }
 }
 
