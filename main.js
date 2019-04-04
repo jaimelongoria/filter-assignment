@@ -11,7 +11,7 @@ $(document).ready(function () { // we must wait for the DOM to be ready as the b
 		gender = _.uniqBy(data, "vic_sex"),
 		race = _.uniqBy(data, "vic_race");
 
-		year = _.sortBy(year, "occur_year"),
+	year = _.sortBy(year, "occur_year"),
 		boros = _.sortBy(boros, "boro"),
 		death = _.sortBy(death, "statistical_murder_flag"),
 		age = _.sortBy(age, "vic_age_group"),
@@ -44,11 +44,16 @@ $(document).ready(function () { // we must wait for the DOM to be ready as the b
 		$("#vic_race").append(option_template({ shot: person.vic_race }));
 	});
 
-	
+
 
 	$("body").on("change", ".choice", function () {
 		console.log("this.value");
 		console.log(this.value);
+
+		$("span").addClass("fadein");
+		setTimeout(function () {
+			$("span").removeClass("fadein");
+		}, 2000);
 
 		//set up an empty object to store your filters in
 		let filters = {};
@@ -67,11 +72,12 @@ $(document).ready(function () { // we must wait for the DOM to be ready as the b
 
 		//filter the data by the selections
 		let results = _.filter(data, filters);
-		const outof = " out of 20659 victims match this demographic."
+		const outof = " out of 20,659 victims match this demographic."
 		array = results
 		let percent = (array.length / 20659) * 100
 		let pretotal = parseFloat(percent)
 		let pertotal = "This is " + pretotal.toPrecision(3) + "% of shooting victims between 2006 and 2018.";
+
 
 		console.log("pertotal");
 		console.log(pertotal);
@@ -81,15 +87,21 @@ $(document).ready(function () { // we must wait for the DOM to be ready as the b
 		var per = $(".percent_total").find("span").text(pertotal);
 
 
-		$("#rstbtn").on("click", function () {
+		$("#rstbtn").on("mousedown", function () {
 			console.log("clicked");
+
+			$("#firsttotal").addClass("fadein");
+			setTimeout(function () {
+				$("#firsttotal").removeClass("fadein");
+			}, 2000);
+
 			// $(per).hide();
 			var initialgraph = "According to NYPD data 20,659 people were shot between 2006 and 2018. Use the filter below to narrow the demographics of each victim."
 			$("#firsttotal").find("span").text(initialgraph);
 			$(".percent_total").find("span").text("");
 
-
 		});
+
 
 
 

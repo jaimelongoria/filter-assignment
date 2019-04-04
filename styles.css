@@ -53,14 +53,17 @@ img {
     max-width: 100%;
 }
 
-/*.imgcred {
+.imgcred {
     font-family: 'VT323', monospace;
     font-size: 16px;
     color: #999999;
     line-height: 0.8em;
-    position: relative;
-    right: -660px;
-}*/
+}
+
+a {
+    color: #999999;
+}
+
 p {
     line-height: 1.5em;
 }
@@ -75,6 +78,24 @@ p {
 .interact {
     max-width: 100%;
     padding-top: 25px;
+}
+
+.fadein {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 form {
@@ -106,9 +127,39 @@ span {
 
 .choice {
     cursor: pointer;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     font-family: 'PT Serif', Georgia, "Times New Roman", serif;
     width: 100%;
+    border: solid;
+    border-width: thin;
+    color: #000000;
+    font-family: 'PT Serif', Georgia, "Times New Roman", serif;
+    font-size: 16px;
+}
+
+#rstbtn {
+    background-color: #FFFFFF;
+    border: solid;
+    border-width: thin;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'PT Serif', Georgia, "Times New Roman", serif;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 4px 55px;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+#rstbtn:hover {
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
 p.solid {
