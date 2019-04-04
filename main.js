@@ -4,17 +4,25 @@ $(document).ready(function () { // we must wait for the DOM to be ready as the b
 	let person_template = _.template($("#person_template").html()), //outside to save processing and need to rebuild that variable each time. Could be inside the bind, but wastes processing.
 		option_template = _.template($("#select_template").html()),
 
+		year = _.uniqBy(data, "occur_year"),
 		boros = _.uniqBy(data, "boro"),
 		death = _.uniqBy(data, "statistical_murder_flag"),
 		age = _.uniqBy(data, "vic_age_group"),
 		gender = _.uniqBy(data, "vic_sex"),
 		race = _.uniqBy(data, "vic_race");
 
-	boros = _.sortBy(boros, "boro"),
+		year = _.sortBy(year, "occur_year"),
+		boros = _.sortBy(boros, "boro"),
 		death = _.sortBy(death, "statistical_murder_flag"),
 		age = _.sortBy(age, "vic_age_group"),
 		gender = _.sortBy(gender, "vic_sex"),
 		race = _.sortBy(race, "vic_race");
+
+
+
+	_.each(year, function (person) {
+		$("#occur_year").append(option_template({ shot: person.occur_year }));
+	});
 
 	_.each(boros, function (person) {
 		$("#boro").append(option_template({ shot: person.boro }));
@@ -36,6 +44,7 @@ $(document).ready(function () { // we must wait for the DOM to be ready as the b
 		$("#vic_race").append(option_template({ shot: person.vic_race }));
 	});
 
+	
 
 	$("body").on("change", ".choice", function () {
 		console.log("this.value");
@@ -58,19 +67,29 @@ $(document).ready(function () { // we must wait for the DOM to be ready as the b
 
 		//filter the data by the selections
 		let results = _.filter(data, filters);
-		const outof = " out of 951 victims match this demographic."
+		const outof = " out of 20659 victims match this demographic."
 		array = results
-		let percent = (array.length / 951) * 100
+		let percent = (array.length / 20659) * 100
 		let pretotal = parseFloat(percent)
-		let pertotal = "This is " + pretotal.toPrecision(3) + "% of shooting victims in 2018.";
+		let pertotal = "This is " + pretotal.toPrecision(3) + "% of shooting victims between 2006 and 2018.";
 
 		console.log("pertotal");
 		console.log(pertotal);
 
 
-		$(".total").find("span").text(array.length).append(outof);
-		$(".percent_total").find("span").text(pertotal);
+		var tot = $(".total").find("span").text(array.length).append(outof);
+		var per = $(".percent_total").find("span").text(pertotal);
 
+
+		$("#rstbtn").on("click", function () {
+			console.log("clicked");
+			// $(per).hide();
+			var initialgraph = "According to NYPD data 20,659 people were shot between 2006 and 2018. Use the filter below to narrow the demographics of each victim."
+			$("#firsttotal").find("span").text(initialgraph);
+			$(".percent_total").find("span").text("");
+
+
+		});
 
 
 
@@ -89,6 +108,8 @@ $(document).ready(function () { // we must wait for the DOM to be ready as the b
 		console.log(results);
 
 	});
+
+
 
 	//	$("#killed").on("change", function () {
 	//		console.log("this.value");
@@ -161,6 +182,8 @@ $(document).ready(function () { // we must wait for the DOM to be ready as the b
 	//	});
 
 
+	console.log("year");
+	console.log(year);
 
 	console.log("boros");
 	console.log(boros);
@@ -177,6 +200,9 @@ $(document).ready(function () { // we must wait for the DOM to be ready as the b
 	console.log("race");
 	console.log(race);
 });
+
+
+
 //var result = _(data)
 //.groupBy('boro')
 //	.map((items, boro) => ({ boro, count: items.length }))
