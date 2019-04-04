@@ -36,60 +36,56 @@
       <!--  <p class="imgcred">Photo by <a href="https://www.flickr.com/photos/eschipul/4160817135/in/photolist-7kFgYt-n4GyW-2nkjeq-fcsGT-e1QhKu-3TWg7p-e1QhX1-DvkSQ1-e1JDsx-e1JDqP-e1JDuv-f2L4YD-e1Qi4b-2ce5ALa-e1QhLh-U6K3g-e1JDvB-dxR3nv-U6K3v-e1JDxr-6XM5bf-788Mrn-qQ38UL-7wTMth-WZmJH2-fX35Gq-JrU4D-xVTUW-2cAnfc-nKseJ6-4cvWnf-2fYrg-f2L1KM-27zu62x-7BLa6h-qzTdh5-8gz8hb-dAuYtn-jD3DS6-f2L2b8-7vtDvk-f2L15a-f31hsm-22wXoE7-f31frj-23iLGGx-G7U8V-557TEu-f2LarB-7MWeTh"
           target="_blank">Ed
           Schipul</a></p>-->
+      <div id="resultbox">
+        <div class="total" id="firsttotal">
+          <span>According to NYPD data 20,659 people were shot between 2006 and 2018. Use the filter below to narrow the demographics of each
+            victim.</span>
+        </div>
 
-      <div class="interact">
-        <form class="drop">
-          <select class="choice" id="boro">
-            <option value="">Borough</option>
-          </select>
-          <select class="choice" id="vic_race">
-            <option value="">Race or Ethnicity</option>
-          </select>
-          <select class="choice" id="vic_age_group">
-            <option value="">Age</option>
-          </select>
-          <select class="choice" id="vic_sex">
-            <option value="">Gender</option>
-          </select>
-          <select class="choice" id="statistical_murder_flag">
-            <option value="">Did Victim Die?</option>
-          </select>
-          <select class="choice" id="occur_year">
-            <option value="">Year</option>
-          </select>
-          <div class="reset-btn">
-            <button type="reset" value="reset">Reset</button>
-          </div>
-        </form>
-
-
-
-        <div id="resultbox">
-          <div class="total">
-            <span>In 2018, according to data from the New York City Police Department, 951 people were shot. Use the filter below to narrow the demographics of each victim.</span>
-          </div>
-
-          <div class="percent_total">
-            <span> </span>
-          </div>
+        <div class="percent_total">
+          <span> </span>
         </div>
       </div>
+    </div>
 
-
+    <div class="interact">
+      <form class="drop">
+        <select class="choice" id="boro">
+          <option value="">Borough</option>
+        </select>
+        <select class="choice" id="vic_race">
+          <option value="">Race or Ethnicity</option>
+        </select>
+        <select class="choice" id="vic_age_group">
+          <option value="">Age</option>
+        </select>
+        <select class="choice" id="vic_sex">
+          <option value="">Gender</option>
+        </select>
+        <select class="choice" id="statistical_murder_flag">
+          <option value="">Did Victim Die?</option>
+        </select>
+        <select class="choice" id="occur_year">
+          <option value="">Year</option>
+        </select>
+        <div class="reset-btn">
+          <button type="reset" value="reset" id="rstbtn">Reset</button>
+        </div>
+      </form>
 
       <!-- templating occurs here -->
       <script type="text/html" id="person_template">
         <!--You selected a shooting in <%= person.boro %>. This person was killed: <%= person.statistical_murder_flag %>. They were  <%= person.vic_age_group %> years old, their gender was <%= person.vic_sex %> and their race was <%= person.vic_race %>.-->
-      <%= person %>
-        </script>
+        <%= person %>
+      </script>
 
       <script type="text/html" id="select_template">
         <option value="<%= shot %>"><%= shot %></option>
-        </script>
+      </script>
 
       <script type="text/html" id="select_template">
         <option value="<%= statistical_murder_flag %>"><%= statistical_murder_flag %></option>
-            </script>
+      </script>
     </div>
 
     <hr>
